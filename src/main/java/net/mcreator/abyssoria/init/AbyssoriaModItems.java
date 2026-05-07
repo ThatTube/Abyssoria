@@ -15,7 +15,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.abyssoria.item.SharpTeethItem;
 import net.mcreator.abyssoria.item.RawFishItem;
-import net.mcreator.abyssoria.item.JunioitrItem;
 import net.mcreator.abyssoria.item.DevilLightStemItem;
 import net.mcreator.abyssoria.item.BakedFishItem;
 import net.mcreator.abyssoria.AbyssoriaMod;
@@ -34,7 +33,6 @@ public class AbyssoriaModItems {
 	public static final RegistryObject<Item> DENSE_KELP_BLOCK = block(AbyssoriaModBlocks.DENSE_KELP_BLOCK);
 	public static final RegistryObject<Item> KELDP_DEPTH_ROCK = block(AbyssoriaModBlocks.KELDP_DEPTH_ROCK);
 	public static final RegistryObject<Item> SOUL_DEPTH_ROCK = block(AbyssoriaModBlocks.SOUL_DEPTH_ROCK);
-	public static final RegistryObject<Item> JUNIOITR = REGISTRY.register("junioitr", () -> new JunioitrItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
