@@ -1,0 +1,450 @@
+{
+  "mod_elements": [
+    {
+      "name": "Abyssoria",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssoria",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/advancements/abyssoria.json"
+        ]
+      }
+    },
+    {
+      "name": "Abyssori",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssori",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BlackSeaDevil",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "black_sea_devil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/abyssoria/client/renderer/BlackSeaDevilRenderer.java",
+          "src/main/java/net/mcreator/abyssoria/entity/layer/BlackSeaDevilLayer.java",
+          "src/main/resources/assets/abyssoria/models/item/black_sea_devil_spawn_egg.json",
+          "src/main/resources/data/abyssoria/forge/biome_modifier/black_sea_devil_biome_modifier.json",
+          "src/main/java/net/mcreator/abyssoria/entity/BlackSeaDevilEntity.java",
+          "src/main/java/net/mcreator/abyssoria/entity/model/BlackSeaDevilModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "DepthRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/block/depth_rock.json",
+          "src/main/resources/data/abyssoria/loot_tables/blocks/depth_rock.json",
+          "src/main/resources/assets/abyssoria/models/item/depth_rock.json",
+          "src/main/resources/assets/abyssoria/blockstates/depth_rock.json",
+          "src/main/java/net/mcreator/abyssoria/block/DepthRockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AbyssalPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/worldgen/biome/abyssal_plains.json"
+        ]
+      },
+      "path": "~/Biomes "
+    },
+    {
+      "name": "FogZone",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fog_zone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/worldgen/biome/fog_zone.json"
+        ]
+      },
+      "path": "~/Biomes "
+    },
+    {
+      "name": "RawFish",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/raw_fish.json",
+          "src/main/java/net/mcreator/abyssoria/item/RawFishItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "BakedFish",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/baked_fish.json",
+          "src/main/java/net/mcreator/abyssoria/item/BakedFishItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "BakeAFish",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bake_a_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/recipes/bake_a_fish.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "BakeAFish2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bake_a_fish_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/recipes/bake_a_fish_2.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "BSDDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsd_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/loot_tables/entities/black_sea_devil.json"
+        ]
+      },
+      "path": "~/Drops"
+    },
+    {
+      "name": "GlowingKelpedDepthRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glowing_kelped_depth_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/loot_tables/blocks/glowing_kelped_depth_rock.json",
+          "src/main/java/net/mcreator/abyssoria/block/GlowingKelpedDepthRockBlock.java",
+          "src/main/resources/assets/abyssoria/blockstates/glowing_kelped_depth_rock.json",
+          "src/main/resources/assets/abyssoria/models/block/glowing_kelped_depth_rock.json",
+          "src/main/resources/assets/abyssoria/models/item/glowing_kelped_depth_rock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AbyssalKelp",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_kelp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/block/abyssal_kelp.json",
+          "src/main/resources/data/abyssoria/loot_tables/blocks/abyssal_kelp.json",
+          "src/main/java/net/mcreator/abyssoria/block/AbyssalKelpBlock.java",
+          "src/main/resources/assets/abyssoria/models/item/abyssal_kelp.json",
+          "src/main/resources/assets/abyssoria/blockstates/abyssal_kelp.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SharpTeeth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharp_teeth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/sharp_teeth.json",
+          "src/main/java/net/mcreator/abyssoria/item/SharpTeethItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "DevilLightStem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_light_stem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/devil_light_stem.json",
+          "src/main/java/net/mcreator/abyssoria/item/DevilLightStemItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "DenseKelp",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_kelp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/blockstates/dense_kelp.json",
+          "src/main/java/net/mcreator/abyssoria/block/DenseKelpBlock.java",
+          "src/main/resources/assets/abyssoria/models/item/dense_kelp.json",
+          "src/main/resources/assets/abyssoria/models/block/dense_kelp.json",
+          "src/main/resources/data/abyssoria/loot_tables/blocks/dense_kelp.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DenseKelpBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_kelp_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/dense_kelp_block.json",
+          "src/main/resources/data/abyssoria/loot_tables/blocks/dense_kelp_block.json",
+          "src/main/java/net/mcreator/abyssoria/block/DenseKelpBlockBlock.java",
+          "src/main/resources/assets/abyssoria/models/block/dense_kelp_block.json",
+          "src/main/resources/assets/abyssoria/blockstates/dense_kelp_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "KeldpDepthRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keldp_depth_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/keldp_depth_rock.json",
+          "src/main/resources/data/abyssoria/loot_tables/blocks/keldp_depth_rock.json",
+          "src/main/resources/assets/abyssoria/models/block/keldp_depth_rock.json",
+          "src/main/java/net/mcreator/abyssoria/block/KeldpDepthRockBlock.java",
+          "src/main/resources/assets/abyssoria/blockstates/keldp_depth_rock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ShinyCoralGarden",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiny_coral_garden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/worldgen/biome/shiny_coral_garden.json"
+        ]
+      },
+      "path": "~/Biomes "
+    },
+    {
+      "name": "CrystalSea",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_sea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/worldgen/configured_feature/crystal_sea_tree.json",
+          "src/main/resources/data/abyssoria/worldgen/placed_feature/crystal_sea_tree.json",
+          "src/main/resources/data/abyssoria/worldgen/biome/crystal_sea.json"
+        ]
+      },
+      "path": "~/Biomes "
+    },
+    {
+      "name": "GigantShellsGarden",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gigant_shells_garden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/worldgen/biome/gigant_shells_garden.json"
+        ]
+      },
+      "path": "~/Biomes "
+    },
+    {
+      "name": "SoulDepthRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_depth_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/blockstates/soul_depth_rock.json",
+          "src/main/resources/assets/abyssoria/models/block/soul_depth_rock.json",
+          "src/main/java/net/mcreator/abyssoria/block/SoulDepthRockBlock.java",
+          "src/main/resources/data/abyssoria/loot_tables/blocks/soul_depth_rock.json",
+          "src/main/resources/assets/abyssoria/models/item/soul_depth_rock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CarcassField",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carcass_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/worldgen/biome/carcass_field.json"
+        ]
+      },
+      "path": "~/Biomes "
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ENTITIES:mod:bsd_can_attract": [
+      "EntityCod",
+      "EntityDevilsHolePupfish",
+      "EntityTripodfish",
+      "EntityTropicalFish",
+      "EntityLanternfish",
+      "EntitySalmon"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SoulDepthRock",
+      "~CUSTOM:KeldpDepthRock",
+      "~CUSTOM:GlowingKelpedDepthRock",
+      "~CUSTOM:DepthRock"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:DenseKelpBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SoulDepthRock",
+      "~CUSTOM:KeldpDepthRock",
+      "~CUSTOM:GlowingKelpedDepthRock",
+      "~CUSTOM:DepthRock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.abyssoria.abyssal_kelp": "Abyssal Kelp",
+      "item.abyssoria.sharp_teeth": "Sharp Teeth",
+      "block.abyssoria.depth_rock": "Depth Rock",
+      "advancements.abyssoria.title": "Abyssoria",
+      "biome.abyssoria.fog_zone": "Fog Zone",
+      "block.abyssoria.dense_kelp": "Dense Kelp",
+      "block.abyssoria.dense_kelp_block": "Dense Kelp Block",
+      "biome.abyssoria.gigant_shells_garden": "Gigant Shells Garden",
+      "item_group.abyssoria.abyssori": "Abyssoria",
+      "item.abyssoria.raw_fish": "Raw Fish",
+      "item.abyssoria.baked_fish": "Baked Fish",
+      "block.abyssoria.keldp_depth_rock": "Kelped Depth Rock",
+      "advancements.abyssoria.descr": "The depths are waiting for you.",
+      "item.abyssoria.black_sea_devil_spawn_egg": "Black Sea Devil Spawn Egg",
+      "biome.abyssoria.abyssal_plains": "Abyssal Plains",
+      "biome.abyssoria.shiny_coral_garden": "Shiny Coral Garden",
+      "entity.abyssoria.black_sea_devil": "Black Sea Devil",
+      "block.abyssoria.glowing_kelped_depth_rock": "Glowing Kelped Depth Rock",
+      "item.abyssoria.devil_light_stem": "Black Sea Devil Light Stem",
+      "biome.abyssoria.carcass_field": "Carcass Field",
+      "biome.abyssoria.crystal_sea": "Crystal Sea",
+      "block.abyssoria.soul_depth_rock": "Soul Depth Rock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Drops",
+        "children": []
+      },
+      {
+        "name": "Itens",
+        "children": []
+      },
+      {
+        "name": "advancement",
+        "children": []
+      },
+      {
+        "name": "Structure",
+        "children": []
+      },
+      {
+        "name": "Biomes ",
+        "children": []
+      },
+      {
+        "name": "Recipe",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "abyssoria",
+    "modName": "Abyssoria",
+    "version": "1.0.0",
+    "author": "Luca, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.abyssoria"
+  },
+  "mcreatorVersion": 202400452410
+}

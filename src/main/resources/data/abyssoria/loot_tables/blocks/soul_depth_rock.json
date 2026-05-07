@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "abyssoria:blocks/soul_depth_rock",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "abyssoria:soul_depth_rock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "abyssoria:black_sea_devil_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.abyssoria.title"
+    },
+    "description": {
+      "translate": "advancements.abyssoria.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abyssoria_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "abyssoria:block/dense_kelp",
+    "particle": "abyssoria:block/dense_kelp"
+  },
+  "render_type": "cutout"
+}

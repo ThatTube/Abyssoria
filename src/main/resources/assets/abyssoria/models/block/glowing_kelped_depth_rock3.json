@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "abyssoria:block/gdr4",
+    "particle": "abyssoria:block/gdr4"
+  },
+  "render_type": "solid"
+}

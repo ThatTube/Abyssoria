@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "abyssoria:block/gdr2",
+    "particle": "abyssoria:block/gdr2"
+  },
+  "render_type": "solid"
+}

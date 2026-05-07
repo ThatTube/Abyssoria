@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "abyssoria:block/kelps",
+    "particle": "abyssoria:block/gkelp"
+  },
+  "render_type": "cutout"
+}

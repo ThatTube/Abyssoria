@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "": {
+      	"model": "abyssoria:block/glowing_kelped_depth_rock" "weight": 5
+    },
+    	
+		"model": "abyssoria:block/glowing_kelped_depth_rock2" "weight": 3
+    },
+   
+    {
+	"model": "abyssoria:block/glowing_kelped_depth_rock1" "weight": 1
+    },
+    {
+	"model": "abyssoria:block/glowing_kelped_depth_rock3" "weight": 2
+    }
+  }
+}

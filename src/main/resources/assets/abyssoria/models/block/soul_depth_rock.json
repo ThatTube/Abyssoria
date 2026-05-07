@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "abyssoria:block/dr",
+    "up": "abyssoria:block/soul_dr_top",
+    "north": "abyssoria:block/soul_dr",
+    "east": "abyssoria:block/soul_dr",
+    "south": "abyssoria:block/soul_dr",
+    "west": "abyssoria:block/soul_dr",
+    "particle": "abyssoria:block/dr"
+  },
+  "render_type": "solid"
+}
