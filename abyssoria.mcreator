@@ -333,6 +333,20 @@
         ]
       },
       "path": "~/Biomes "
+    },
+    {
+      "name": "Junioitr",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junioitr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/junioitr.json",
+          "src/main/java/net/mcreator/abyssoria/item/JunioitrItem.java"
+        ]
+      },
+      "path": "~/Itens"
     }
   ],
   "variable_elements": [],
@@ -370,6 +384,7 @@
       "block.abyssoria.depth_rock": "Depth Rock",
       "advancements.abyssoria.title": "Abyssoria",
       "biome.abyssoria.fog_zone": "Fog Zone",
+      "item.abyssoria.junioitr": "Junioitr",
       "block.abyssoria.dense_kelp": "Dense Kelp",
       "block.abyssoria.dense_kelp_block": "Dense Kelp Block",
       "biome.abyssoria.gigant_shells_garden": "Gigant Shells Garden",
