@@ -15,6 +15,9 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.abyssoria.item.SharpTeethItem;
 import net.mcreator.abyssoria.item.RawFishItem;
+import net.mcreator.abyssoria.item.MoltenRockItem;
+import net.mcreator.abyssoria.item.HydrothermalStoneItem;
+import net.mcreator.abyssoria.item.HadalPearlItem;
 import net.mcreator.abyssoria.item.DevilLightStemItem;
 import net.mcreator.abyssoria.item.BakedFishItem;
 import net.mcreator.abyssoria.AbyssoriaMod;
@@ -33,6 +36,10 @@ public class AbyssoriaModItems {
 	public static final RegistryObject<Item> DENSE_KELP_BLOCK = block(AbyssoriaModBlocks.DENSE_KELP_BLOCK);
 	public static final RegistryObject<Item> KELDP_DEPTH_ROCK = block(AbyssoriaModBlocks.KELDP_DEPTH_ROCK);
 	public static final RegistryObject<Item> SOUL_DEPTH_ROCK = block(AbyssoriaModBlocks.SOUL_DEPTH_ROCK);
+	public static final RegistryObject<Item> HYDROTHERMAL_STONE = REGISTRY.register("hydrothermal_stone", () -> new HydrothermalStoneItem());
+	public static final RegistryObject<Item> HADAL_PEARL = REGISTRY.register("hadal_pearl", () -> new HadalPearlItem());
+	public static final RegistryObject<Item> MOLTEN_ROCK = REGISTRY.register("molten_rock", () -> new MoltenRockItem());
+	public static final RegistryObject<Item> CORAL_SHARD = REGISTRY.register("coral_shard", () -> new CoralShardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

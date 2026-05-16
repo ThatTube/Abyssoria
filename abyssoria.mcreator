@@ -333,6 +333,75 @@
         ]
       },
       "path": "~/Biomes "
+    },
+    {
+      "name": "HydrothermalStone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrothermal_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abyssoria/models/item/hydrothermal_stone.json",
+          "src/main/java/net/mcreator/abyssoria/item/HydrothermalStoneItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "HadalPearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadal_pearl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/abyssoria/item/HadalPearlItem.java",
+          "src/main/resources/assets/abyssoria/models/item/hadal_pearl.json"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "MoltenRock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/abyssoria/item/MoltenRockItem.java",
+          "src/main/resources/assets/abyssoria/models/item/molten_rock.json"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "MoltenRockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_rock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/abyssoria/recipes/molten_rock_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CoralShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coral_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/abyssoria/item/CoralShardItem.java",
+          "src/main/resources/assets/abyssoria/models/item/coral_shard.json"
+        ]
+      },
+      "path": "~/Itens"
     }
   ],
   "variable_elements": [],
@@ -368,24 +437,28 @@
       "block.abyssoria.abyssal_kelp": "Abyssal Kelp",
       "item.abyssoria.sharp_teeth": "Sharp Teeth",
       "block.abyssoria.depth_rock": "Depth Rock",
-      "advancements.abyssoria.title": "Abyssoria",
       "biome.abyssoria.fog_zone": "Fog Zone",
-      "block.abyssoria.dense_kelp": "Dense Kelp",
-      "block.abyssoria.dense_kelp_block": "Dense Kelp Block",
-      "biome.abyssoria.gigant_shells_garden": "Gigant Shells Garden",
-      "item_group.abyssoria.abyssori": "Abyssoria",
+      "item.abyssoria.hydrothermal_stone": "Hydrothermal Stone",
       "item.abyssoria.raw_fish": "Raw Fish",
       "item.abyssoria.baked_fish": "Baked Fish",
-      "block.abyssoria.keldp_depth_rock": "Kelped Depth Rock",
       "advancements.abyssoria.descr": "The depths are waiting for you.",
       "item.abyssoria.black_sea_devil_spawn_egg": "Black Sea Devil Spawn Egg",
-      "biome.abyssoria.abyssal_plains": "Abyssal Plains",
       "biome.abyssoria.shiny_coral_garden": "Shiny Coral Garden",
-      "entity.abyssoria.black_sea_devil": "Black Sea Devil",
       "block.abyssoria.glowing_kelped_depth_rock": "Glowing Kelped Depth Rock",
       "item.abyssoria.devil_light_stem": "Black Sea Devil Light Stem",
       "biome.abyssoria.carcass_field": "Carcass Field",
       "biome.abyssoria.crystal_sea": "Crystal Sea",
+      "advancements.abyssoria.title": "Abyssoria",
+      "block.abyssoria.dense_kelp": "Dense Kelp",
+      "block.abyssoria.dense_kelp_block": "Dense Kelp Block",
+      "biome.abyssoria.gigant_shells_garden": "Gigant Shells Garden",
+      "item_group.abyssoria.abyssori": "Abyssoria",
+      "item.abyssoria.molten_rock": "Molten Rock",
+      "block.abyssoria.keldp_depth_rock": "Kelped Depth Rock",
+      "item.abyssoria.hadal_pearl": "Hadal Pearl",
+      "biome.abyssoria.abyssal_plains": "Abyssal Plains",
+      "entity.abyssoria.black_sea_devil": "Black Sea Devil",
+      "item.abyssoria.coral_shard": "Coral Shard",
       "block.abyssoria.soul_depth_rock": "Soul Depth Rock"
     }
   },

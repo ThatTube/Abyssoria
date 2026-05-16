@@ -30,5 +30,9 @@ public class AbyssoriaModTabs {
 				tabData.accept(AbyssoriaModBlocks.DENSE_KELP_BLOCK.get().asItem());
 				tabData.accept(AbyssoriaModBlocks.KELDP_DEPTH_ROCK.get().asItem());
 				tabData.accept(AbyssoriaModBlocks.SOUL_DEPTH_ROCK.get().asItem());
+				tabData.accept(AbyssoriaModItems.HYDROTHERMAL_STONE.get());
+				tabData.accept(AbyssoriaModItems.HADAL_PEARL.get());
+				tabData.accept(AbyssoriaModItems.MOLTEN_ROCK.get());
+				tabData.accept(AbyssoriaModItems.CORAL_SHARD.get());
 			}).withSearchBar().build());
 }
